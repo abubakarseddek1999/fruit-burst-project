@@ -38,8 +38,9 @@
 
 <body>
     <header class="container mx-auto">
-        <nav>
-            <div class="navbar bg-base-100">
+        <nav class="bg-btn-color mt-5 rounded-full">
+            <div class="navbar ">
+
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn  btn-ghost lg:hidden">
@@ -68,37 +69,38 @@
 
                 <div class="navbar-center  lg:flex">
                     <!-- <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>All Fruits</a></li>
-                    </ul> -->
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul> -->
                     <div class="flex  justify-center items-center ">
                         <div>
                             <img class="" src="./images/logo.png" alt="">
                         </div>
 
                         <div>
-                            <h4 class="text-4xl font-bold ">Fruit Burst</h4>
+                            <h4 class="text-3xl text-white  md:text-4xl font-bold ">Fruit Burst</h4>
                         </div>
                     </div>
                 </div>
                 <!-- search button style  -->
                 <div class="navbar-end  ">
-                    <div class="">
+                    <div class=" hidden md:block">
                         <input type="text" placeholder="Search here"
                             class="input block input-bordered w-full max-w-xs" />
                     </div>
-                    <div class="relative -left-6">
+                    <div class="relative hidden md:block -left-6">
                         <i class="fa-solid fa-magnifying-glass"></i>
 
                     </div>
                 </div>
+
             </div>
 
         </nav>
         <!-- banner section  -->
-        <section class="mt-20">
+        <section class="mt-10">
             <!-- banner slides -->
             <div class="carousel w-full">
                 <!-- slid-01  -->
@@ -210,7 +212,7 @@
     <!-- main section  -->
     <main class="container mx-auto">
         <!-- Deal of the day  -->
-        <section class="p-5 my-20">
+        <section class="p-5 my-10">
             <div class=" flex flex-col md:flex-row my-5 justify-center items-center">
                 <div class="w-1/2 py-5 text-left">
                     <h2 class="text-3xl md:text-5xl mb-5 font-extrabold">Deal of the day</h2>
@@ -547,7 +549,7 @@
             </div>
         </section>
         <!-- Why Choose Us section  -->
-        <section class="p-5 my-20">
+        <section class="p-5 my-10">
             <div class="flex flex-col text-center">
                 <h1 class="mb-5 text-5xl font-extrabold">Meet the team section</h1>
                 <p class="mb-5">
